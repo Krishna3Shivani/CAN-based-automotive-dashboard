@@ -29,33 +29,6 @@ The system uses multiple ECUs to collect and exchange vehicle-related informatio
 * PIC18F4580
 * CAN Protocol
 
-## System Architecture
-
-The project consists of multiple ECUs communicating through the CAN bus.
-
-
-              CAN BUS
-     ┌───────────────────────┐
-     │                       │
-     ▼                       ▼
-┌──────────┐             ┌──────────┐
-│  ECU 1   │             │  ECU 2   │
-│          │             │          │
-│  Speed   │             │   RPM    │
-│  Gear    │             │          │
-└────┬─────┘             └────┬─────┘
-     │                        │
-     └───────────┬────────────┘
-                 ▼
-            ┌──────────┐
-            │  ECU 3   │
-            │          │
-            │  CLCD    │
-            │ Speed    │
-            │ Gear     │
-            │ RPM      │
-            │ Indicator│
-            └──────────┘
 
 ## Key Concepts
 
