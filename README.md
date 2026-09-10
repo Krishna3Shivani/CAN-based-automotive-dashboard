@@ -63,5 +63,3 @@ The system uses multiple ECUs to collect and exchange vehicle-related informatio
 * Improve the dashboard interface.
 * Add data logging for vehicle parameters.
 
-
-B.E. Electronics and Communication Engineering
